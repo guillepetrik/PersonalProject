@@ -1,0 +1,244 @@
+@import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS' !important;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.box {
+  width: 200px;
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: solid 1px black;
+}
+.contc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.conts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+  
+}
+.contr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  background-color: lightgray;
+  border: 1px solid black;
+  width: 80%;
+
+}
+.der {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.crear {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  border: 1px black solid;
+  margin: 10px 10px;
+}
+.space {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: space-around;
+}
+.sb{
+  width: 180px;
+  margin: 20px 50px;
+}
+.sb2{
+  margin: 20px 50px;
+}
+ul { 
+  list-style-type: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  width: auto;
+  padding: 1rem;
+  height: 2rem;
+  background-color: cornflowerblue;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
+  margin: 20px;
+  
+}
+.btn2{
+  background-color: white;
+  border: none;
+  margin-right: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.btn3{
+  font-weight: 500;
+  width: auto;
+  padding: 1rem;
+  height: 2rem;
+  background-color: #9C0D38;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 5px 5px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  font-weight: 900;
+}
+#map {
+  height: 500px;
+  width: 70%;
+}
+.md {
+  margin-right: 16px;
+  margin-left: 8px;
+  color: #333333;
+}
+#map img {
+  max-width: none;
+}
+.mapt {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.container h1 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.custom-map-control-button{
+  background-color: beige;
+  margin: 10px 5px;
+  padding: 10px;
+  color: #333333;
+  border-radius: 6px;
+  font-weight: 900;
+}
+.navbarbg {
+  background-color: #68B864;
+}
+.card {
+  margin-top: 15px;
+  width: 350px;
+  height: 475px;
+  border: solid 2px #333333;
+  border-radius: 8px;
+  box-shadow: 5px 5px #68B864;
+}
+.cardd {
+  margin-top: 15px;
+  width: 500px;
+  height: 400px;
+  border: solid 2px #333333;
+  border-radius: 8px;
+  box-shadow: 5px 5px #68B864;
+  background-color: white;
+}
+h4, h6 {
+  font-weight: 900;
+}
+
+.baritem {
+  margin: 8px 8px;
+}
+.nbt{
+  font-weight: 500;
+  width: auto;
+  padding: 1rem;
+  height: 2rem;
+  background-color: #3A5A40;
+  color: white;
+  border: 1px solid black;
+  box-shadow: 5px 5px #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  border-radius: 50%;
+}
+h1 span{
+  font-weight: 900;
+}
+.bgimg {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRHjTzR1-SOyJewpGg63GwyOhTCXBpvGUvA&usqp=CAU");
+  background-size: 45px;
+  height: 575px;
+}
+.bgimgg {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLRHjTzR1-SOyJewpGg63GwyOhTCXBpvGUvA&usqp=CAU");
+  background-size: 45px;
+  height: 625px;
+}
